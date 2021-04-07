@@ -1,0 +1,215 @@
+body {
+	margin: 0;
+}
+
+/*global header*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+	color: #ffffff !important;
+}
+
+/*header start*/
+.header {
+	background-image: url('../images/a.jpg');
+	height: 947px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+/*navbar start*/
+.bg-light {
+	opacity: .8;
+	background-color: #0162CD !important;
+}
+
+.navbar-brand {
+	font-size: 40px;
+	font-family: 'Pacifico', cursive;
+}
+
+.navbar-nav .active>.nav-link {
+
+	font-size: 22px;
+	text-transform: capitalize;
+	margin-right: 15px;
+}
+
+.navbar-nav .active>.nav-link:hover {
+	color: #000000 !important;
+}
+
+/*navbar end*/
+
+/*header heading h1 start*/
+.header-h1 {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 200px !important;
+	margin-left: 160px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+
+}
+
+/*header heading h1 end*/
+
+/*header p start*/
+.header-p {
+	line-height: 20px;
+	text-align: justify;
+	margin-top: 20px;
+	letter-spacing: 3px;
+	padding-top: 40px;
+	color: #ffffff !important;
+	font-size: 22px;
+}
+
+/*header pend*/
+
+/*header end */
+
+/*about start*/
+.about {
+	background: #8D787D;
+	overflow: hidden;
+}
+
+/*header-about start*/
+.header-about {
+	padding-top: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*header-about end*/
+
+/*h4-about start*/
+.h4-about {
+	padding: 20px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+/*h4-about end*/
+
+/*p-about start*/
+.p-about {
+	margin-bottom: 0 !important;
+}
+
+p {
+	color: #000000 !important;
+	font-weight: 500;
+}
+
+/*p-about end*/
+
+/*about end*/
+
+/*services start*/
+.services {
+	background: orange;
+	padding-top: 30px;
+	overflow: hidden;
+}
+
+/*box services start*/
+.box-services {
+	height: 250px;
+	width: 250px;
+	background: #ffffff;
+	border-radius: 50%;
+	margin: auto;
+	margin-bottom: 40px;
+}
+
+/*box services end*/
+
+/*services box-heading start*/
+.services-heading {
+	text-align: center;
+	color: #000000 !important;
+	padding-top: 35px;
+	font-size: 60px;
+}
+
+/*services box-heading end*/
+
+/*services end*/
+
+/*card start*/
+.card {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+.col-md-4:last-child {
+	margin-right: 0;
+}
+
+/*card end*/
+
+/*contact start*/
+.conatct {
+	overflow: hidden;
+}
+
+/*form start*/
+.span-form {
+	color: red;
+}
+
+/*form end*/
+
+/*contact end*/
+
+/*footer start*/
+.footer {
+	background: #6230F2;
+	overflow: hidden;
+}
+
+/* foooter row*/
+.footer-col {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	;
+}
+
+h4 {
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #000000 !important;
+}
+
+h6 {
+	text-transform: capitalize;
+	font-size: 24px;
+}
+
+a {
+	text-transform: capitalize;
+}
+
+/*footer row end*/
+
+/*footer icon*/
+.fab {
+	font-size: 18px;
+	margin-left: 15px;
+	margin-right: 30px;
+}
+
+.fas {
+	font-size: 18px;
+	margin-left: 15px;
+}
